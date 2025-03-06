@@ -11,7 +11,7 @@ export default async function Home() {
     if (!res.ok) throw new Error("Failed to fetch data");
     data = await res.json();
   } catch (error: any) {
-    alert("Error fetching data: " + (error.message || error));
+    console.log("Error fetching data: " + (error.message || error));
   }
 
   return (
