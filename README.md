@@ -2,6 +2,8 @@
 
 This is a demo application built with Next.js (app directory) and HeroUI v2.
 
+[Try it](https://modern-walk.netlify.app/)
+
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/docs/getting-started)
