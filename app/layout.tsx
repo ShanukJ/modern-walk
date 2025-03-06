@@ -43,9 +43,14 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-10 flex-grow">
+            <main className="container mx-auto max-w-7xl pt-10 px-5 flex-grow">
               {children}
             </main>
+            {/* <footer className="text-center py-4">
+              <p>
+                &copy; {new Date().getFullYear()} {siteConfig.name}
+              </p>
+            </footer> */}
           </div>
         </Providers>
       </body>
