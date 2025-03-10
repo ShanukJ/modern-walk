@@ -21,8 +21,6 @@ This is a demo application built with Next.js (app directory) and HeroUI v2.
 npm install
 ```
 
-### Rename example.env to .env
-
 ### Run the development server
 
 ```bash
