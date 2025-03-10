@@ -14,11 +14,14 @@ This is a demo application built with Next.js (app directory) and HeroUI v2.
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
+
 ### Install dependencies
 
 ```bash
 npm install
 ```
+
+### Rename example.env to .env
 
 ### Run the development server
 
